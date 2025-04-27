@@ -21,7 +21,9 @@ Para configurar redes personalizadas, Docker ofrece comandos que permiten a los 
 
 
 Docker Logo
-Figura 1-1. Ejemplo del ecosistema Docker.
+----
+![image](https://github.com/user-attachments/assets/90dcb54f-a067-4a68-9d55-1c644da50c18)
+----
 
 ## 4. Conocimientos previos
 El estudiante debe conocer:
@@ -32,8 +34,16 @@ El estudiante debe conocer:
 
 ## 5. Objetivos a alcanzar
 - Implementar contenedores para MySQL y phpMyAdmin.
+---
+![image](https://github.com/user-attachments/assets/37c84ed7-9e7f-48cf-982f-763bf0d4ed3a)
+---
 - Configurar una red personalizada que permita la interacción entre ambos contenedores.
+---
+![image](https://github.com/user-attachments/assets/306d3f52-8e48-4006-b19c-041b3becd293)
+---
 - Crear y validar una base de datos de prueba mediante phpMyAdmin.
+---
+![image](https://github.com/user-attachments/assets/923742ca-79f0-4c52-b073-74b569717878)
 
 
 ## 6. Equipo necesario
@@ -54,20 +64,19 @@ docker network create mi_red_personalizada
 
 
 Paso 2: Crear contenedor de MySQL
-docker run --name mysql --network mi_red_personalizada -e MYSQL_ROOT_PASSWORD=clave -d mysql:latest
-
-
+docker run --name mi_mysql --network my_red_personalizada -e MYSQL_ROOT_PASSWORD=tu_contraseña -e MYSQL_DATABASE=prueba -d mysql:latest
+----
+![image](https://github.com/user-attachments/assets/0fc72876-0943-4a29-bf52-37fb70df4c39)
+----
 Paso 3: Crear contenedor de phpMyAdmin
 docker run --name phpmyadmin --network mi_red_personalizada -d phpmyadmin/phpmyadmin
 
 
 Paso 4: Validar conexión entre contenedores.
-Asegúrate de que ambos contenedores están en la misma red usando:
-docker network inspect mi_red_personalizada
+----
+![image](https://github.com/user-attachments/assets/4df85664-30c0-4f51-ba26-e726b3a5b972)
+---
 
-
-Figura 1-2. Diagramas de contenedores en la misma red.
-Diagrama contenedores
 
 ## 9. Resultados esperados
 - Pantalla de inicio de phpMyAdmin mostrando conexión exitosa a la base de datos MySQL.
