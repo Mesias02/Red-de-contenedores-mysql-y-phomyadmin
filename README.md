@@ -96,6 +96,8 @@ Paso 4: Validar conexión entre contenedores.
 ---
 ## 10. Bibliografía
 Docker Inc. (2025). Docker Documentation. Recuperado de https://docs.docker.com.
+----
 Docker, Inc. (n.d.). MySQL Server. Recuperado el 26 de abril de 2025, de https://hub.docker.com/r/mysql/mysql-server/.
+----
 Geotab, Inc. (n.d.). MyAdmin. Recuperado el 26 de abril de 2025, de https://myadmin.geotab.com/.
 
