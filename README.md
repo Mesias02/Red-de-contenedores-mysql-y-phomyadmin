@@ -1,5 +1,9 @@
 # Red de contenedores mysql y phomyadmin
- 
+---
+ ![image](https://github.com/user-attachments/assets/050164a7-afc9-42cc-ace4-0908076b9806)
+---
+![image](https://github.com/user-attachments/assets/19c575f9-f665-4922-a8c9-68f78c0143fa)
+---
 
 ## 1. Título
 Implementación de contenedores Docker para MySQL y phpMyAdmin con comunicación en red personalizada.
@@ -14,7 +18,9 @@ Conceptos claves:
 - Redes Docker: Las redes personalizadas permiten la conexión entre contenedores para facilitar la comunicación interna.
 - MySQL: Su configuración en contenedores involucra definir credenciales de acceso y garantizar la persistencia de datos.
 - phpMyAdmin: Su configuración requiere vinculación adecuada al contenedor de MySQL a través de redes.
-
+----
+![image](https://github.com/user-attachments/assets/f9deeb73-3d28-41ec-9df4-0e9a2458adfd)
+---
 # Fundamentos
 Docker es una plataforma que facilita la creación, despliegue y ejecución de aplicaciones utilizando contenedores. Según la documentación oficial de Docker, "los contenedores son unidades estándar de software que encapsulan código y sus dependencias" (Docker Inc., 2025). Esto garantiza que las aplicaciones sean portables y consistentes en diferentes entornos.
 Para configurar redes personalizadas, Docker ofrece comandos que permiten a los contenedores comunicarse eficientemente. Este enfoque asegura una comunicación clara entre servicios, como MySQL y phpMyAdmin, para proyectos como el actual (Docker Inc., 2025).
@@ -90,3 +96,6 @@ Paso 4: Validar conexión entre contenedores.
 ---
 ## 10. Bibliografía
 Docker Inc. (2025). Docker Documentation. Recuperado de https://docs.docker.com.
+Docker, Inc. (n.d.). MySQL Server. Recuperado el 26 de abril de 2025, de https://hub.docker.com/r/mysql/mysql-server/.
+Geotab, Inc. (n.d.). MyAdmin. Recuperado el 26 de abril de 2025, de https://myadmin.geotab.com/.
+
