@@ -71,8 +71,12 @@ Diagrama contenedores
 
 ## 9. Resultados esperados
 - Pantalla de inicio de phpMyAdmin mostrando conexión exitosa a la base de datos MySQL.
+---
+![image](https://github.com/user-attachments/assets/26a5ab9d-d3ca-43d0-9d11-4a80155f9e68)
+---
 - Base de datos de prueba creada desde la interfaz de phpMyAdmin.
-
-
+---
+![image](https://github.com/user-attachments/assets/f884e671-5b15-478b-95f1-0c6612881c61)
+---
 ## 10. Bibliografía
 Docker Inc. (2025). Docker Documentation. Recuperado de https://docs.docker.com.
