@@ -64,14 +64,15 @@ docker network create mi_red_personalizada
 
 
 Paso 2: Crear contenedor de MySQL
-docker run --name mi_mysql --network my_red_personalizada -e MYSQL_ROOT_PASSWORD=tu_contraseña -e MYSQL_DATABASE=prueba -d mysql:latest
+docker run --name mi_mysql --network mi_red personalizada -e MYSQL_ROOT_PASSWORD=tu_contraseña -e MYSQL_DATABASE=prueba -d mysql:latest
 ----
-![image](https://github.com/user-attachments/assets/0fc72876-0943-4a29-bf52-37fb70df4c39)
+![image](https://github.com/user-attachments/assets/e47dd8ce-10f0-4595-9e7a-a8ceaf7402c2)
 ----
 Paso 3: Crear contenedor de phpMyAdmin
 docker run --name phpmyadmin --network mi_red_personalizada -d phpmyadmin/phpmyadmin
-
-
+---
+![image](https://github.com/user-attachments/assets/5f1f4ea4-2cf8-4be4-9d95-eb77186820d1)
+---
 Paso 4: Validar conexión entre contenedores.
 ----
 ![image](https://github.com/user-attachments/assets/4df85664-30c0-4f51-ba26-e726b3a5b972)
