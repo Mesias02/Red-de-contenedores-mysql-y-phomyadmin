@@ -11,7 +11,7 @@ Implementación de contenedores Docker para MySQL y phpMyAdmin con comunicación
 ## 2. Tiempo de duración
 160 minutos.
 
-## 3. Fundamentos
+## 3. Desarrollo 
 Docker es una plataforma de contenedorización que permite empaquetar aplicaciones y servicios con todas sus dependencias. MySQL es un sistema de gestión de bases de datos relacional, mientras que phpMyAdmin es una herramienta basada en web para administrar bases de datos MySQL.
 Conceptos claves:
 - Docker: Con sus imágenes y contenedores, simplifica la implementación y ejecución de aplicaciones en ambientes consistentes.
